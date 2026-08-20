@@ -1,4 +1,4 @@
-# emergent-build
+# cat-emergent-build
 
 **Context bundle for rebuilding the ChainIT Sales Cockpit and its pricing engine
 as a prototype on [app.emergent.sh](https://app.emergent.sh).**

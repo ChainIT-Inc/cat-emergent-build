@@ -1,0 +1,170 @@
+{
+  "role": "manager",
+  "ownerResolved": true,
+  "fallback": null,
+  "myOpenDeals": {
+    "count": 30,
+    "amount": 1431950,
+    "deals": [
+      {
+        "id": "d-1005",
+        "pipeline": "default",
+        "dealstage": "appointmentscheduled",
+        "amount": 31000,
+        "ownerId": "106",
+        "daysInStage": 35,
+        "lastModifiedMs": 1784210400000
+      },
+      {
+        "id": "d-1018",
+        "pipeline": "default",
+        "dealstage": "decisionmakerboughtin",
+        "amount": null,
+        "ownerId": "104",
+        "daysInStage": 33,
+        "lastModifiedMs": 1784383200000
+      },
+      {
+        "id": "d-1011",
+        "pipeline": "default",
+        "dealstage": "qualifiedtobuy",
+        "amount": 41000,
+        "ownerId": "103",
+        "daysInStage": 28,
+        "lastModifiedMs": 1784815200000
+      },
+      {
+        "id": "d-2003",
+        "pipeline": "638415376",
+        "dealstage": "aff_app",
+        "amount": 8250,
+        "ownerId": "101",
+        "daysInStage": 26,
+        "lastModifiedMs": 1784988000000
+      },
+      {
+        "id": "d-1022",
+        "pipeline": "default",
+        "dealstage": "contractsent",
+        "amount": 99000,
+        "ownerId": "102",
+        "daysInStage": 23,
+        "lastModifiedMs": 1785247200000
+      },
+      {
+        "id": "d-1003",
+        "pipeline": "default",
+        "dealstage": "appointmentscheduled",
+        "amount": 7500,
+        "ownerId": "104",
+        "daysInStage": 21,
+        "lastModifiedMs": 1785420000000
+      },
+      {
+        "id": "d-1016",
+        "pipeline": "default",
+        "dealstage": "decisionmakerboughtin",
+        "amount": 96000,
+        "ownerId": "103",
+        "daysInStage": 19,
+        "lastModifiedMs": 1785592800000
+      },
+      {
+        "id": "d-1009",
+        "pipeline": "default",
+        "dealstage": "qualifiedtobuy",
+        "amount": 88500,
+        "ownerId": "102",
+        "daysInStage": 17,
+        "lastModifiedMs": 1785765600000
+      },
+      {
+        "id": "d-2007",
+        "pipeline": "638415376",
+        "dealstage": "aff_review",
+        "amount": 27300,
+        "ownerId": "101",
+        "daysInStage": 16,
+        "lastModifiedMs": 1785852000000
+      },
+      {
+        "id": "d-1013",
+        "pipeline": "default",
+        "dealstage": "presentationscheduled",
+        "amount": 52300,
+        "ownerId": "102",
+        "daysInStage": 15,
+        "lastModifiedMs": 1785938400000
+      },
+      {
+        "id": "d-2002",
+        "pipeline": "638415376",
+        "dealstage": "aff_app",
+        "amount": 11500,
+        "ownerId": "105",
+        "daysInStage": 13,
+        "lastModifiedMs": 1786111200000
+      },
+      {
+        "id": "d-1008",
+        "pipeline": "default",
+        "dealstage": "qualifiedtobuy",
+        "amount": 155000,
+        "ownerId": "104",
+        "daysInStage": 12,
+        "lastModifiedMs": 1786197600000
+      }
+    ]
+  },
+  "agingDeals": {
+    "count": 10,
+    "amount": 450850
+  },
+  "tasksDueToday": {
+    "count": 0,
+    "available": false
+  },
+  "newMqlSqlSince": {
+    "count": 3
+  },
+  "weekWins": {
+    "count": 2,
+    "amount": 78000
+  },
+  "hotLeads": {
+    "count": 5,
+    "leads": [
+      {
+        "id": "l-3001",
+        "name": "Odile Marchetti",
+        "email": "odile.marchetti@brightfold-dental.example",
+        "createdMs": 1787148000000
+      },
+      {
+        "id": "l-3002",
+        "name": "Ivo Karlsen",
+        "email": "ivo.karlsen@tessellate-labs.example",
+        "createdMs": 1787104800000
+      },
+      {
+        "id": "l-3003",
+        "name": "Nadia Prentiss",
+        "email": "nadia.prentiss@vireohealth.example",
+        "createdMs": 1787061600000
+      },
+      {
+        "id": "l-3004",
+        "name": null,
+        "email": "hello@quill-anchor.example",
+        "createdMs": 1787018400000
+      },
+      {
+        "id": "l-3005",
+        "name": "Greta Sollis",
+        "email": "greta.sollis@halyardmarine.example",
+        "createdMs": 1786975200000
+      }
+    ],
+    "degraded": false
+  }
+}

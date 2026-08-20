@@ -1,0 +1,20 @@
+{
+  "rep": {
+    "email": "marcus.ilo@chainit.com",
+    "role": "rep",
+    "ownerId": "102",
+    "bypass_mode": false
+  },
+  "manager": {
+    "email": "dana.whitlock@chainit.com",
+    "role": "manager",
+    "ownerId": "101",
+    "bypass_mode": false
+  },
+  "unmatched": {
+    "email": "newhire@chainit.com",
+    "role": "rep",
+    "ownerId": null,
+    "bypass_mode": false
+  }
+}

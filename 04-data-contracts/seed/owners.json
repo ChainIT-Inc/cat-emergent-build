@@ -1,0 +1,38 @@
+[
+  {
+    "id": "101",
+    "name": "Dana Whitlock",
+    "email": "dana.whitlock@chainit.com",
+    "team": "Enterprise"
+  },
+  {
+    "id": "102",
+    "name": "Marcus Ilo",
+    "email": "marcus.ilo@chainit.com",
+    "team": "Mid-Market"
+  },
+  {
+    "id": "103",
+    "name": "Priya Raman",
+    "email": "priya.raman@chainit.com",
+    "team": "Mid-Market"
+  },
+  {
+    "id": "104",
+    "name": "Tomás Vega",
+    "email": "tomas.vega@chainit.com",
+    "team": "Enterprise"
+  },
+  {
+    "id": "105",
+    "name": "Ellen Boyd",
+    "email": "ellen.boyd@chainit.com",
+    "team": "Partnerships"
+  },
+  {
+    "id": "106",
+    "name": "Sam Oduya",
+    "email": "sam.oduya@chainit.com",
+    "team": "SMB"
+  }
+]

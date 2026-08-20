@@ -1,0 +1,43 @@
+{
+  "available": {
+    "available": true,
+    "dealId": "d-1020",
+    "dealName": "Redwood Ledger Trust — Escrow flows",
+    "companyName": "Redwood Ledger Trust",
+    "companyDomain": "redwoodledger.example",
+    "ownerName": "Dana Whitlock",
+    "recordUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1020"
+  },
+  "partial": {
+    "available": true,
+    "dealId": "d-1014",
+    "dealName": "Kestrel County Water — Citizen payments",
+    "companyName": null,
+    "companyDomain": null,
+    "ownerName": "Dana Whitlock",
+    "recordUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1014"
+  },
+  "notFound": {
+    "available": false,
+    "dealId": "99999999",
+    "dealName": null,
+    "companyName": null,
+    "companyDomain": null,
+    "ownerName": null,
+    "recordUrl": null,
+    "reason": "deal_not_found"
+  },
+  "hubspotDown": {
+    "available": false,
+    "dealId": "d-1020",
+    "dealName": null,
+    "companyName": null,
+    "companyDomain": null,
+    "ownerName": null,
+    "recordUrl": null,
+    "reason": "hubspot_error:429"
+  },
+  "invalidId": {
+    "error": "invalid_deal_id"
+  }
+}

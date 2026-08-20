@@ -1,0 +1,61 @@
+{
+  "role": "rep",
+  "ownerResolved": false,
+  "fallback": "fresh-leads",
+  "myOpenDeals": {
+    "count": 0,
+    "amount": 0,
+    "deals": []
+  },
+  "agingDeals": {
+    "count": 0,
+    "amount": 0
+  },
+  "tasksDueToday": {
+    "count": 0,
+    "available": false
+  },
+  "newMqlSqlSince": {
+    "count": 0
+  },
+  "weekWins": {
+    "count": 0,
+    "amount": 0
+  },
+  "hotLeads": {
+    "count": 5,
+    "leads": [
+      {
+        "id": "l-3001",
+        "name": "Odile Marchetti",
+        "email": "odile.marchetti@brightfold-dental.example",
+        "createdMs": 1787148000000
+      },
+      {
+        "id": "l-3002",
+        "name": "Ivo Karlsen",
+        "email": "ivo.karlsen@tessellate-labs.example",
+        "createdMs": 1787104800000
+      },
+      {
+        "id": "l-3003",
+        "name": "Nadia Prentiss",
+        "email": "nadia.prentiss@vireohealth.example",
+        "createdMs": 1787061600000
+      },
+      {
+        "id": "l-3004",
+        "name": null,
+        "email": "hello@quill-anchor.example",
+        "createdMs": 1787018400000
+      },
+      {
+        "id": "l-3005",
+        "name": "Greta Sollis",
+        "email": "greta.sollis@halyardmarine.example",
+        "createdMs": 1786975200000
+      }
+    ],
+    "degraded": false
+  }
+}

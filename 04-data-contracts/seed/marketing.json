@@ -1,0 +1,556 @@
+{
+  "leadFunnel": [
+    {
+      "stage": "leads",
+      "count": 4820
+    },
+    {
+      "stage": "marketingQualifiedLeads",
+      "count": 1160
+    },
+    {
+      "stage": "salesQualifiedLeads",
+      "count": 412
+    },
+    {
+      "stage": "opportunities",
+      "count": 96
+    },
+    {
+      "stage": "customers",
+      "count": 38
+    }
+  ],
+  "leadSourceRoi": [
+    {
+      "source": "ORGANIC_SEARCH",
+      "leads": 1840,
+      "contacts": 1610,
+      "opportunities": 34,
+      "visits": 21400
+    },
+    {
+      "source": "PAID_SEARCH",
+      "leads": 1120,
+      "contacts": 980,
+      "opportunities": 22,
+      "visits": 14800
+    },
+    {
+      "source": "DIRECT_TRAFFIC",
+      "leads": 760,
+      "contacts": 690,
+      "opportunities": 15,
+      "visits": 9600
+    },
+    {
+      "source": "REFERRALS",
+      "leads": 480,
+      "contacts": 452,
+      "opportunities": 19,
+      "visits": 3100
+    },
+    {
+      "source": "EMAIL_MARKETING",
+      "leads": 360,
+      "contacts": 318,
+      "opportunities": 4,
+      "visits": 5200
+    },
+    {
+      "source": "SOCIAL_MEDIA",
+      "leads": 210,
+      "contacts": 164,
+      "opportunities": 2,
+      "visits": 7300
+    },
+    {
+      "source": "OTHER_CAMPAIGNS",
+      "leads": 50,
+      "contacts": 41,
+      "opportunities": 0,
+      "visits": 900
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "cmp-501",
+      "name": "Q3 Merchant Webinar",
+      "updatedMs": 1786752000000
+    },
+    {
+      "id": "cmp-502",
+      "name": "Cannabis Compliance Guide",
+      "updatedMs": 1786320000000
+    },
+    {
+      "id": "cmp-503",
+      "name": "Affiliate Partner Drive",
+      "updatedMs": 1785542400000
+    },
+    {
+      "id": "cmp-504",
+      "name": "Healthcare Payments Series",
+      "updatedMs": 1784073600000
+    },
+    {
+      "id": "cmp-505",
+      "name": "Spring Rate Refresh",
+      "updatedMs": null
+    }
+  ],
+  "lists": {
+    "total": 63,
+    "items": [
+      {
+        "listId": "lst-8801",
+        "name": "MQL — Cannabis",
+        "processingType": "DYNAMIC",
+        "size": 1204,
+        "objectTypeId": "0-1"
+      },
+      {
+        "listId": "lst-8802",
+        "name": "MQL — Healthcare",
+        "processingType": "DYNAMIC",
+        "size": 862,
+        "objectTypeId": "0-1"
+      },
+      {
+        "listId": "lst-8803",
+        "name": "Webinar Q3 registrants",
+        "processingType": "SNAPSHOT",
+        "size": 341,
+        "objectTypeId": "0-1"
+      },
+      {
+        "listId": "lst-8804",
+        "name": "Affiliate prospects",
+        "processingType": "DYNAMIC",
+        "size": 118,
+        "objectTypeId": "0-2"
+      },
+      {
+        "listId": "lst-8805",
+        "name": "Dormant 180d",
+        "processingType": "DYNAMIC",
+        "size": null,
+        "objectTypeId": "0-1"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "id": "frm-a1",
+      "name": "Contact Sales",
+      "archived": false,
+      "fieldCount": 7
+    },
+    {
+      "id": "frm-a2",
+      "name": "Rate Quote Request",
+      "archived": false,
+      "fieldCount": 11
+    },
+    {
+      "id": "frm-a3",
+      "name": "Webinar Registration",
+      "archived": false,
+      "fieldCount": 5
+    },
+    {
+      "id": "frm-a4",
+      "name": "Affiliate Application",
+      "archived": false,
+      "fieldCount": 14
+    },
+    {
+      "id": "frm-a5",
+      "name": "Compliance Guide Download",
+      "archived": false,
+      "fieldCount": 4
+    },
+    {
+      "id": "frm-a6",
+      "name": "2025 Pricing Enquiry",
+      "archived": true,
+      "fieldCount": 6
+    }
+  ],
+  "marketingEmails": [
+    {
+      "id": "eml-77",
+      "name": "August product note",
+      "state": "PUBLISHED",
+      "publishMs": 1786320000000
+    },
+    {
+      "id": "eml-78",
+      "name": "Webinar reminder — 24h",
+      "state": "PUBLISHED",
+      "publishMs": 1786665600000
+    },
+    {
+      "id": "eml-79",
+      "name": "September rate refresh",
+      "state": "SCHEDULED",
+      "publishMs": 1788566400000
+    },
+    {
+      "id": "eml-80",
+      "name": "Affiliate partner spotlight",
+      "state": "DRAFT",
+      "publishMs": null
+    },
+    {
+      "id": "eml-81",
+      "name": "Healthcare case study",
+      "state": "PUBLISHED",
+      "publishMs": 1784073600000
+    }
+  ],
+  "audience": {
+    "lifecycleCounts": [
+      {
+        "stage": "subscriber",
+        "count": 3120
+      },
+      {
+        "stage": "lead",
+        "count": 5240
+      },
+      {
+        "stage": "marketingqualifiedlead",
+        "count": 2180
+      },
+      {
+        "stage": "salesqualifiedlead",
+        "count": 980
+      },
+      {
+        "stage": "opportunity",
+        "count": 262
+      },
+      {
+        "stage": "customer",
+        "count": 108
+      }
+    ],
+    "leadsBySource": [
+      {
+        "stage": "ORGANIC_SEARCH",
+        "count": 4210
+      },
+      {
+        "stage": "PAID_SEARCH",
+        "count": 2980
+      },
+      {
+        "stage": "DIRECT_TRAFFIC",
+        "count": 2140
+      },
+      {
+        "stage": "REFERRALS",
+        "count": 1180
+      },
+      {
+        "stage": "unknown",
+        "count": 1890
+      }
+    ],
+    "contactGrowth": [
+      {
+        "day": "2026-08-14",
+        "netNew": 61
+      },
+      {
+        "day": "2026-08-15",
+        "netNew": 22
+      },
+      {
+        "day": "2026-08-16",
+        "netNew": 14
+      },
+      {
+        "day": "2026-08-17",
+        "netNew": 78
+      },
+      {
+        "day": "2026-08-18",
+        "netNew": 84
+      },
+      {
+        "day": "2026-08-19",
+        "netNew": 69
+      },
+      {
+        "day": "2026-08-20",
+        "netNew": 31
+      }
+    ],
+    "companyGrowth": [
+      {
+        "day": "2026-08-14",
+        "netNew": 22
+      },
+      {
+        "day": "2026-08-15",
+        "netNew": 8
+      },
+      {
+        "day": "2026-08-16",
+        "netNew": 5
+      },
+      {
+        "day": "2026-08-17",
+        "netNew": 29
+      },
+      {
+        "day": "2026-08-18",
+        "netNew": 33
+      },
+      {
+        "day": "2026-08-19",
+        "netNew": 25
+      },
+      {
+        "day": "2026-08-20",
+        "netNew": 11
+      }
+    ],
+    "dataQuality": [
+      {
+        "metric": "companies_regulated",
+        "numerator": 96,
+        "denominator": 8320
+      },
+      {
+        "metric": "companies_with_country",
+        "numerator": 5104,
+        "denominator": 8320
+      },
+      {
+        "metric": "contacts_with_lifecycle",
+        "numerator": 11890,
+        "denominator": 12400
+      },
+      {
+        "metric": "contacts_with_source",
+        "numerator": 10510,
+        "denominator": 12400
+      }
+    ],
+    "contactsInD1": 12400,
+    "companiesInD1": 8320
+  },
+  "formPerformance": {
+    "byWindow": {
+      "7d": {
+        "totals": {
+          "formViews": 2140,
+          "submissions": 96,
+          "contactSubs": 88,
+          "nonContactSubs": 8,
+          "visibles": 2260,
+          "interactions": 512,
+          "subsPerView": 0.0449,
+          "ctPerView": 0.2393,
+          "rangeStartMs": 1786579200000,
+          "rangeEndMs": 1787184000000
+        },
+        "perForm": {
+          "frm-a1": {
+            "formId": "frm-a1",
+            "formViews": 890,
+            "submissions": 44,
+            "contactSubs": 41,
+            "subsPerView": 0.0494
+          },
+          "frm-a2": {
+            "formId": "frm-a2",
+            "formViews": 610,
+            "submissions": 22,
+            "contactSubs": 21,
+            "subsPerView": 0.0361
+          },
+          "frm-a3": {
+            "formId": "frm-a3",
+            "formViews": 640,
+            "submissions": 30,
+            "contactSubs": 26,
+            "subsPerView": 0.0469
+          }
+        }
+      },
+      "30d": {
+        "totals": {
+          "formViews": 9820,
+          "submissions": 412,
+          "contactSubs": 366,
+          "nonContactSubs": 46,
+          "visibles": 10400,
+          "interactions": 2180,
+          "subsPerView": 0.042,
+          "ctPerView": 0.222,
+          "rangeStartMs": 1784592000000,
+          "rangeEndMs": 1787184000000
+        },
+        "perForm": {
+          "frm-a1": {
+            "formId": "frm-a1",
+            "formViews": 4100,
+            "submissions": 210,
+            "contactSubs": 190,
+            "subsPerView": 0.0512
+          },
+          "frm-a2": {
+            "formId": "frm-a2",
+            "formViews": 2760,
+            "submissions": 88,
+            "contactSubs": 82,
+            "subsPerView": 0.0319
+          },
+          "frm-a3": {
+            "formId": "frm-a3",
+            "formViews": 1880,
+            "submissions": 84,
+            "contactSubs": 71,
+            "subsPerView": 0.0447
+          },
+          "frm-a4": {
+            "formId": "frm-a4",
+            "formViews": 640,
+            "submissions": 22,
+            "contactSubs": 18,
+            "subsPerView": 0.0344
+          },
+          "frm-a5": {
+            "formId": "frm-a5",
+            "formViews": 440,
+            "submissions": 8,
+            "contactSubs": 5,
+            "subsPerView": 0.0182
+          }
+        }
+      },
+      "90d": {
+        "totals": {
+          "formViews": 27600,
+          "submissions": 1142,
+          "contactSubs": 1010,
+          "nonContactSubs": 132,
+          "visibles": 29100,
+          "interactions": 6240,
+          "subsPerView": 0.0414,
+          "ctPerView": 0.2261,
+          "rangeStartMs": 1779408000000,
+          "rangeEndMs": 1787184000000
+        },
+        "perForm": {
+          "frm-a1": {
+            "formId": "frm-a1",
+            "formViews": 11800,
+            "submissions": 588,
+            "contactSubs": 531,
+            "subsPerView": 0.0498
+          },
+          "frm-a2": {
+            "formId": "frm-a2",
+            "formViews": 7900,
+            "submissions": 246,
+            "contactSubs": 228,
+            "subsPerView": 0.0311
+          }
+        }
+      },
+      "all": {
+        "totals": {
+          "formViews": 148300,
+          "submissions": 6104,
+          "contactSubs": 5420,
+          "nonContactSubs": 684,
+          "visibles": 156900,
+          "interactions": 33800,
+          "subsPerView": 0.0412,
+          "ctPerView": 0.2279,
+          "rangeStartMs": 1577836800000,
+          "rangeEndMs": 1787184000000
+        },
+        "perForm": {
+          "frm-a1": {
+            "formId": "frm-a1",
+            "formViews": 61200,
+            "submissions": 3020,
+            "contactSubs": 2740,
+            "subsPerView": 0.0493
+          },
+          "frm-a6": {
+            "formId": "frm-a6",
+            "formViews": 9400,
+            "submissions": 288,
+            "contactSubs": 251,
+            "subsPerView": 0.0306
+          }
+        }
+      }
+    }
+  },
+  "campaignPerformance": {
+    "byWindow": {
+      "30d": {
+        "cmp-501": {
+          "campaignId": "cmp-501",
+          "sessions": 3120,
+          "newContactsFirst": 88,
+          "newContactsLast": 102,
+          "influencedContacts": 260,
+          "revenueAmount": 148000,
+          "dealAmount": 210000,
+          "dealsNumber": 6,
+          "contactsNumber": 260,
+          "currency": "USD"
+        },
+        "cmp-502": {
+          "campaignId": "cmp-502",
+          "sessions": 1840,
+          "newContactsFirst": 51,
+          "newContactsLast": 44,
+          "influencedContacts": 138,
+          "revenueAmount": 42000,
+          "dealAmount": 96000,
+          "dealsNumber": 2,
+          "contactsNumber": 138,
+          "currency": "USD"
+        },
+        "cmp-503": {
+          "campaignId": "cmp-503",
+          "sessions": 610,
+          "newContactsFirst": 19,
+          "newContactsLast": 21,
+          "influencedContacts": 44,
+          "revenueAmount": 0,
+          "dealAmount": 27300,
+          "dealsNumber": 1,
+          "contactsNumber": 44,
+          "currency": "USD"
+        }
+      },
+      "all": {
+        "cmp-501": {
+          "campaignId": "cmp-501",
+          "sessions": 8600,
+          "newContactsFirst": 241,
+          "newContactsLast": 268,
+          "influencedContacts": 690,
+          "revenueAmount": 412000,
+          "dealAmount": 588000,
+          "dealsNumber": 17,
+          "contactsNumber": 690,
+          "currency": "USD"
+        }
+      }
+    }
+  },
+  "syncPending": false,
+  "audiencePending": false
+}

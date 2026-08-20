@@ -1,0 +1,90 @@
+{
+  "steps": [
+    {
+      "objectTypeId": "2-60233737",
+      "label": "Intake Records",
+      "total": 412,
+      "truncated": false,
+      "latestMs": 1787140000000,
+      "displayOrder": 0
+    },
+    {
+      "objectTypeId": "2-60233741",
+      "label": "Onboarding Records",
+      "total": 268,
+      "truncated": false,
+      "latestMs": 1787098000000,
+      "displayOrder": 1
+    },
+    {
+      "objectTypeId": "2-60233748",
+      "label": "Merchants",
+      "total": 194,
+      "truncated": false,
+      "latestMs": 1787012000000,
+      "displayOrder": 2
+    },
+    {
+      "objectTypeId": "2-60233752",
+      "label": "Sub-Merchants",
+      "total": 631,
+      "truncated": true,
+      "latestMs": 1786930000000,
+      "displayOrder": 3
+    },
+    {
+      "objectTypeId": "2-60233760",
+      "label": "External Business Parties",
+      "total": 88,
+      "truncated": false,
+      "latestMs": 1786320000000,
+      "displayOrder": 4
+    },
+    {
+      "objectTypeId": "2-60233766",
+      "label": "Staff",
+      "total": 43,
+      "truncated": false,
+      "latestMs": 1785542400000,
+      "displayOrder": 5
+    }
+  ],
+  "handoff": {
+    "wonDeals": 7,
+    "leakCount": 2,
+    "leakAmount": 93550,
+    "leaks": [
+      {
+        "dealId": "d-1026",
+        "amount": 76800,
+        "ownerId": "104",
+        "ownerName": "Tomás Vega",
+        "dealstage": "closedwon",
+        "closedMs": 1785196800000,
+        "companyId": "c-9016",
+        "companyName": "Juniper Rail Freight",
+        "intakeCount": 0,
+        "onboardingCount": 0,
+        "merchantCount": 0,
+        "submerchantCount": 0,
+        "linkCount": 0
+      },
+      {
+        "dealId": "d-2010",
+        "amount": 16750,
+        "ownerId": "101",
+        "ownerName": "Dana Whitlock",
+        "dealstage": "aff_active",
+        "closedMs": 1785888000000,
+        "companyId": null,
+        "companyName": null,
+        "intakeCount": 0,
+        "onboardingCount": 0,
+        "merchantCount": 0,
+        "submerchantCount": 0,
+        "linkCount": 0
+      }
+    ]
+  },
+  "syncPending": false
+}

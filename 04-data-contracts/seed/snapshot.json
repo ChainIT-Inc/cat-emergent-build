@@ -1,0 +1,223 @@
+{
+  "sync": {
+    "lastRun": {
+      "fast": {
+        "status": "ok",
+        "startedMs": 1787233200000,
+        "finishedMs": 1787233248000,
+        "rows": 51,
+        "http429": 0,
+        "http403": 0,
+        "errorText": null
+      },
+      "heavy": {
+        "status": "partial",
+        "startedMs": 1787230620000,
+        "finishedMs": 1787230910000,
+        "rows": 2500,
+        "http429": 3,
+        "http403": 0,
+        "errorText": "companies crawl truncated at page cap; cursor saved"
+      },
+      "marketing": {
+        "status": "ok",
+        "startedMs": 1787216400000,
+        "finishedMs": 1787216712000,
+        "rows": 188,
+        "http429": 0,
+        "http403": 0,
+        "errorText": null
+      }
+    },
+    "objectCounts": [
+      {
+        "objectType": "companies",
+        "rowsInD1": 8320,
+        "hsReportedTotal": 43640,
+        "capturedMs": 1787230910000
+      },
+      {
+        "objectType": "contacts",
+        "rowsInD1": 12400,
+        "hsReportedTotal": 50218,
+        "capturedMs": 1787230910000
+      }
+    ],
+    "scopeStatus": [
+      {
+        "surface": "analytics",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "campaigns",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "cms",
+        "httpStatus": 403,
+        "granted": false,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "conversations",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "crm",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "forms",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "lists",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "marketing-email",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      },
+      {
+        "surface": "onboarding",
+        "httpStatus": 200,
+        "granted": true,
+        "checkedMs": 1787216700000
+      }
+    ]
+  },
+  "deals": {
+    "byPipelineStage": [
+      {
+        "pipeline": "638415376",
+        "stage": "aff_active",
+        "dealCount": 3,
+        "openAmount": 0
+      },
+      {
+        "pipeline": "638415376",
+        "stage": "aff_app",
+        "dealCount": 5,
+        "openAmount": 45150
+      },
+      {
+        "pipeline": "638415376",
+        "stage": "aff_declined",
+        "dealCount": 1,
+        "openAmount": 0
+      },
+      {
+        "pipeline": "638415376",
+        "stage": "aff_review",
+        "dealCount": 3,
+        "openAmount": 57000
+      },
+      {
+        "pipeline": "default",
+        "stage": "appointmentscheduled",
+        "dealCount": 6,
+        "openAmount": 126100
+      },
+      {
+        "pipeline": "default",
+        "stage": "closedlost",
+        "dealCount": 2,
+        "openAmount": 0
+      },
+      {
+        "pipeline": "default",
+        "stage": "closedwon",
+        "dealCount": 4,
+        "openAmount": 0
+      },
+      {
+        "pipeline": "default",
+        "stage": "contractsent",
+        "dealCount": 3,
+        "openAmount": 288250
+      },
+      {
+        "pipeline": "default",
+        "stage": "decisionmakerboughtin",
+        "dealCount": 4,
+        "openAmount": 214400
+      },
+      {
+        "pipeline": "default",
+        "stage": "presentationscheduled",
+        "dealCount": 4,
+        "openAmount": 329800
+      },
+      {
+        "pipeline": "default",
+        "stage": "qualifiedtobuy",
+        "dealCount": 5,
+        "openAmount": 371250
+      }
+    ],
+    "ownerLeaderboard": [
+      {
+        "ownerId": "101",
+        "openDeals": 5,
+        "openAmount": 437550,
+        "wonDeals": 2,
+        "wonAmount": 204250,
+        "winRate": 1
+      },
+      {
+        "ownerId": "102",
+        "openDeals": 6,
+        "openAmount": 334400,
+        "wonDeals": 1,
+        "wonAmount": 54000,
+        "winRate": 0.5
+      },
+      {
+        "ownerId": "103",
+        "openDeals": 5,
+        "openAmount": 264650,
+        "wonDeals": 1,
+        "wonAmount": 33900,
+        "winRate": 0.5
+      },
+      {
+        "ownerId": "104",
+        "openDeals": 4,
+        "openAmount": 200100,
+        "wonDeals": 1,
+        "wonAmount": 76800,
+        "winRate": 1
+      },
+      {
+        "ownerId": "106",
+        "openDeals": 5,
+        "openAmount": 134050,
+        "wonDeals": 0,
+        "wonAmount": 0,
+        "winRate": 0
+      },
+      {
+        "ownerId": "105",
+        "openDeals": 5,
+        "openAmount": 61200,
+        "wonDeals": 2,
+        "wonAmount": 55200,
+        "winRate": 1
+      }
+    ]
+  }
+}

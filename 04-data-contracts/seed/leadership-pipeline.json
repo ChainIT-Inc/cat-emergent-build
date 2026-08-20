@@ -1,0 +1,581 @@
+{
+  "rows": [
+    {
+      "dealId": "d-1001",
+      "opportunity": "Northwind Provisions — Terminals",
+      "pipeline": "default",
+      "stage": "Discovery",
+      "ownerName": "Marcus Ilo",
+      "ownerId": "102",
+      "amount": 12000,
+      "nextStep": "Send discovery recap",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1001"
+    },
+    {
+      "dealId": "d-1002",
+      "opportunity": "Bellhaven Clinics — Patient Pay",
+      "pipeline": "default",
+      "stage": "Discovery",
+      "ownerName": "Priya Raman",
+      "ownerId": "103",
+      "amount": 48000,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1002"
+    },
+    {
+      "dealId": "d-1003",
+      "opportunity": "Larkspur Outdoors — POS refresh",
+      "pipeline": "default",
+      "stage": "Discovery",
+      "ownerName": "Tomás Vega",
+      "ownerId": "104",
+      "amount": 7500,
+      "nextStep": "Confirm terminal count",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [
+        {
+          "key": "closeDate",
+          "label": "Close Date"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1003"
+    },
+    {
+      "dealId": "d-1004",
+      "opportunity": "Quill & Anchor Books — Ecommerce",
+      "pipeline": "default",
+      "stage": "Discovery",
+      "ownerName": "Marcus Ilo",
+      "ownerId": "102",
+      "amount": 9200,
+      "nextStep": "Book demo",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1004"
+    },
+    {
+      "dealId": "d-1005",
+      "opportunity": "Marrow Bay Cannabis — High risk",
+      "pipeline": "default",
+      "stage": "Discovery",
+      "ownerName": "Sam Oduya",
+      "ownerId": "106",
+      "amount": 31000,
+      "nextStep": "",
+      "cta": "Decide go / no-go by Friday",
+      "riskBlocker": "High-risk underwriting; no sponsor bank answer yet",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        },
+        {
+          "key": "closeDate",
+          "label": "Close Date"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1005"
+    },
+    {
+      "dealId": "d-1006",
+      "opportunity": "Tessellate Labs — Subscription billing",
+      "pipeline": "default",
+      "stage": "Discovery",
+      "ownerName": "Priya Raman",
+      "ownerId": "103",
+      "amount": 18400,
+      "nextStep": "Send pricing sheet",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1006"
+    },
+    {
+      "dealId": "d-1007",
+      "opportunity": "Vireo Health Partners — Gateway",
+      "pipeline": "default",
+      "stage": "Qualified",
+      "ownerName": "Dana Whitlock",
+      "ownerId": "101",
+      "amount": 64000,
+      "nextStep": "Security review call",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1007"
+    },
+    {
+      "dealId": "d-1008",
+      "opportunity": "Copperline Utilities — Bill pay",
+      "pipeline": "default",
+      "stage": "Qualified",
+      "ownerName": "Tomás Vega",
+      "ownerId": "104",
+      "amount": 155000,
+      "nextStep": "Await procurement",
+      "cta": "",
+      "riskBlocker": "Procurement cycle runs to November",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1008"
+    },
+    {
+      "dealId": "d-1009",
+      "opportunity": "Suncrest Insurance Group — Premium collect",
+      "pipeline": "default",
+      "stage": "Qualified",
+      "ownerName": "Marcus Ilo",
+      "ownerId": "102",
+      "amount": 88500,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1009"
+    },
+    {
+      "dealId": "d-1010",
+      "opportunity": "Peartree Pet Supply — Omnichannel",
+      "pipeline": "default",
+      "stage": "Qualified",
+      "ownerName": "Sam Oduya",
+      "ownerId": "106",
+      "amount": 22750,
+      "nextStep": "Send ROI model",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1010"
+    },
+    {
+      "dealId": "d-1011",
+      "opportunity": "Halyard Marine Rentals — Seasonal",
+      "pipeline": "default",
+      "stage": "Qualified",
+      "ownerName": "Priya Raman",
+      "ownerId": "103",
+      "amount": 41000,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        },
+        {
+          "key": "closeDate",
+          "label": "Close Date"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1011"
+    },
+    {
+      "dealId": "d-1012",
+      "opportunity": "Ostrich Creek Winery — Tasting room",
+      "pipeline": "default",
+      "stage": "Demo Scheduled",
+      "ownerName": "Tomás Vega",
+      "ownerId": "104",
+      "amount": 37600,
+      "nextStep": "Demo Sept 3",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1012"
+    },
+    {
+      "dealId": "d-1013",
+      "opportunity": "Brightfold Dental — Practice group",
+      "pipeline": "default",
+      "stage": "Demo Scheduled",
+      "ownerName": "Marcus Ilo",
+      "ownerId": "102",
+      "amount": 52300,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1013"
+    },
+    {
+      "dealId": "d-1014",
+      "opportunity": "Kestrel County Water — Citizen payments",
+      "pipeline": "default",
+      "stage": "Demo Scheduled",
+      "ownerName": "Dana Whitlock",
+      "ownerId": "101",
+      "amount": 210000,
+      "nextStep": "RFP response due",
+      "cta": "Get the RFP in before the 29th",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1014"
+    },
+    {
+      "dealId": "d-1015",
+      "opportunity": "Vanta Rose Cosmetics — DTC",
+      "pipeline": "default",
+      "stage": "Demo Scheduled",
+      "ownerName": "Sam Oduya",
+      "ownerId": "106",
+      "amount": 29900,
+      "nextStep": "Second demo w/ ops",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1015"
+    },
+    {
+      "dealId": "d-1016",
+      "opportunity": "Cindergate Security — National rollout",
+      "pipeline": "default",
+      "stage": "Proposal Sent",
+      "ownerName": "Priya Raman",
+      "ownerId": "103",
+      "amount": 96000,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1016"
+    },
+    {
+      "dealId": "d-1017",
+      "opportunity": "Palladium Fitness Co — Memberships",
+      "pipeline": "default",
+      "stage": "Proposal Sent",
+      "ownerName": "Marcus Ilo",
+      "ownerId": "102",
+      "amount": 73400,
+      "nextStep": "Legal redlines back",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1017"
+    },
+    {
+      "dealId": "d-1018",
+      "opportunity": "Oakmoss Veterinary — Clinic network",
+      "pipeline": "default",
+      "stage": "Proposal Sent",
+      "ownerName": "Tomás Vega",
+      "ownerId": "104",
+      "amount": null,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "Champion left the practice",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        },
+        {
+          "key": "closeDate",
+          "label": "Close Date"
+        },
+        {
+          "key": "amount",
+          "label": "Amount"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1018"
+    },
+    {
+      "dealId": "d-1019",
+      "opportunity": "Thistledown Events — Ticketing",
+      "pipeline": "default",
+      "stage": "Proposal Sent",
+      "ownerName": "Sam Oduya",
+      "ownerId": "106",
+      "amount": 45000,
+      "nextStep": "Send MSA",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1019"
+    },
+    {
+      "dealId": "d-1020",
+      "opportunity": "Redwood Ledger Trust — Escrow flows",
+      "pipeline": "default",
+      "stage": "Contract Sent",
+      "ownerName": "Dana Whitlock",
+      "ownerId": "101",
+      "amount": 128000,
+      "nextStep": "Signature chase",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1020"
+    },
+    {
+      "dealId": "d-1021",
+      "opportunity": "Fenwick Grocers — 9 stores",
+      "pipeline": "default",
+      "stage": "Contract Sent",
+      "ownerName": "Priya Raman",
+      "ownerId": "103",
+      "amount": 61250,
+      "nextStep": "Countersign",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1021"
+    },
+    {
+      "dealId": "d-1022",
+      "opportunity": "Alder & Pine Hospitality — Multi-property",
+      "pipeline": "default",
+      "stage": "Contract Sent",
+      "ownerName": "Marcus Ilo",
+      "ownerId": "102",
+      "amount": 99000,
+      "nextStep": "",
+      "cta": "Escalate to the GM",
+      "riskBlocker": "Legal is out until the 25th",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-1022"
+    },
+    {
+      "dealId": "d-2001",
+      "opportunity": "Pinebrook Referral Group",
+      "pipeline": "638415376",
+      "stage": "Application",
+      "ownerName": "Ellen Boyd",
+      "ownerId": "105",
+      "amount": 6000,
+      "nextStep": "W-9 collection",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2001"
+    },
+    {
+      "dealId": "d-2002",
+      "opportunity": "Vector Nine Media",
+      "pipeline": "638415376",
+      "stage": "Application",
+      "ownerName": "Ellen Boyd",
+      "ownerId": "105",
+      "amount": 11500,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        },
+        {
+          "key": "closeDate",
+          "label": "Close Date"
+        },
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2002"
+    },
+    {
+      "dealId": "d-2003",
+      "opportunity": "Silverbridge Consulting",
+      "pipeline": "638415376",
+      "stage": "Application",
+      "ownerName": "Dana Whitlock",
+      "ownerId": "101",
+      "amount": 8250,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2003"
+    },
+    {
+      "dealId": "d-2004",
+      "opportunity": "Cadence Payments Partners",
+      "pipeline": "638415376",
+      "stage": "Application",
+      "ownerName": "Ellen Boyd",
+      "ownerId": "105",
+      "amount": 14000,
+      "nextStep": "Intro call",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2004"
+    },
+    {
+      "dealId": "d-2005",
+      "opportunity": "Wrenfield Advisors",
+      "pipeline": "638415376",
+      "stage": "Application",
+      "ownerName": "Sam Oduya",
+      "ownerId": "106",
+      "amount": 5400,
+      "nextStep": "Send partner deck",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [
+        {
+          "key": "description",
+          "label": "Description"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2005"
+    },
+    {
+      "dealId": "d-2006",
+      "opportunity": "Talloak Agency",
+      "pipeline": "638415376",
+      "stage": "Under Review",
+      "ownerName": "Ellen Boyd",
+      "ownerId": "105",
+      "amount": 19800,
+      "nextStep": "Compliance review",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2006"
+    },
+    {
+      "dealId": "d-2007",
+      "opportunity": "Northgate Merchant Services",
+      "pipeline": "638415376",
+      "stage": "Under Review",
+      "ownerName": "Dana Whitlock",
+      "ownerId": "101",
+      "amount": 27300,
+      "nextStep": "",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": true,
+      "missing": [
+        {
+          "key": "nextStep",
+          "label": "Next Step"
+        },
+        {
+          "key": "closeDate",
+          "label": "Close Date"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2007"
+    },
+    {
+      "dealId": "d-2008",
+      "opportunity": "Ferrous Point Brokers",
+      "pipeline": "638415376",
+      "stage": "Under Review",
+      "ownerName": "Ellen Boyd",
+      "ownerId": "105",
+      "amount": 9900,
+      "nextStep": "Underwriting docs",
+      "cta": "",
+      "riskBlocker": "",
+      "needsNextStep": false,
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-3/d-2008"
+    }
+  ],
+  "pipelines": [
+    {
+      "pipeline": "default",
+      "pipelineLabel": "Sales Pipeline"
+    },
+    {
+      "pipeline": "638415376",
+      "pipelineLabel": "Affiliate Pipeline"
+    }
+  ],
+  "missingNextStep": 11,
+  "missingRequiredCount": 14,
+  "syncPending": false
+}

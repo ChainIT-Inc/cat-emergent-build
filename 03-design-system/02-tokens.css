@@ -1,0 +1,173 @@
+/* ============================================================================
+   ChainIT Sales Cockpit — design tokens
+   ----------------------------------------------------------------------------
+   Extracted verbatim from apps/sales/src/index.css (ChainIT-Hub, origin/main,
+   2026-08-20). The source is authored in OKLCH for a Tailwind v4 @theme block;
+   the sRGB hex beside each value was computed from the OKLCH source, so the two
+   agree. Use whichever your stack prefers — the hex values are safe defaults.
+
+   HOW TO USE IN EMERGENT
+   Drop this file in as your global stylesheet and reference the custom
+   properties. Do not introduce any colour that is not defined here.
+
+   THE ONE THING TO KNOW
+   `--accent` is named "lavender" in the original source. It is NOT lavender.
+   The real value is OKLCH hue 152 — a forest GREEN, #388e56. A stale code
+   comment in the source claims hue 270; the declared value wins and it is 152.
+   The live app's accent is green. Do not render it purple.
+   ============================================================================ */
+
+:root {
+  /* ── Surfaces (light) ─────────────────────────────────────────────────────
+     A ladder, not shadows. canvas = the page floor, surface lifts off it,
+     surface-strong lifts further. Depth is tone; there are no drop shadows
+     anywhere in this product. */
+  --canvas:           #f6f5f1;   /* oklch(0.97 0.005 90)  — page background   */
+  --surface:          #ffffff;   /* oklch(1 0 0)          — cards, panels     */
+  --surface-strong:   #e6e4e1;   /* oklch(0.92 0.005 90)  — hover, table head */
+  --hairline:         #e2e1de;   /* oklch(0.91 0.005 90)  — default border    */
+  --hairline-strong:  #cac7c2;   /* oklch(0.83 0.008 80)  — emphasised border */
+
+  /* ── Ink ramp (light) ─────────────────────────────────────────────────────
+     Three tiers only. Never invent a fourth grey. */
+  --ink:              #191610;   /* oklch(0.2 0.012 80)   — body + headings   */
+  --ink-muted:        #504d47;   /* oklch(0.42 0.01 80)   — labels, captions  */
+  --ink-subtle:       #66635d;   /* oklch(0.5 0.01 80)    — least emphasis    */
+
+  /* ── Accent (light) ───────────────────────────────────────────────────────
+     One accent, used sparingly: the active nav item, focus rings, and the
+     single mark on an empty state. It is a green. */
+  --accent:           #388e56;   /* oklch(0.58 0.12 152)                      */
+  --accent-tint:      #d6f0da;   /* oklch(0.93 0.04 150)  — accent background */
+  --mint:             #96ca97;   /* oklch(0.79 0.09 145)  — soft positive     */
+  --mint-tint:        #dff6de;   /* oklch(0.95 0.04 145)                      */
+
+  /* ── Destructive (light) ──────────────────────────────────────────────── */
+  --danger:           #ba2c25;   /* oklch(0.52 0.18 28)                       */
+  --destructive:      #ba2c25;   /* alias — same value                        */
+
+  /* ── Deal-health triad (light) ────────────────────────────────────────────
+     Used by the pricing health light, status badges, and the rate ladder.
+     Pattern: `-tint` is a background, `-ink` is TEXT ON that tint (AA 4.5:1),
+     and the bare token is a meaningful graphic — a dot, a bar, a ladder mark
+     (3:1). Never put bare-token colour on canvas as body text. */
+  --health-green:      #05893e;  /* oklch(0.55 0.15 150)                      */
+  --health-green-tint: #d5f5da;  /* oklch(0.94 0.05 150)                      */
+  --health-green-ink:  #154f27;  /* oklch(0.38 0.09 150)                      */
+  --health-amber:      #a56e00;  /* oklch(0.58 0.14 80)                       */
+  --health-amber-tint: #ffecc1;  /* oklch(0.95 0.06 85)                       */
+  --health-amber-ink:  #784900;  /* oklch(0.45 0.1 70)                        */
+  --health-red:        #c92f33;  /* oklch(0.55 0.19 25)                       */
+  --health-red-tint:   #ffe2de;  /* oklch(0.94 0.04 25)                       */
+  --health-red-ink:    #8d1a1e;  /* oklch(0.42 0.15 25)                       */
+
+  /* ── Informational chip (light) ───────────────────────────────────────── */
+  --info-tint:        #d2f0ff;   /* oklch(0.94 0.04 235)                      */
+  --info-ink:         #004e71;   /* oklch(0.4 0.09 235)                       */
+
+  /* ── Typography ───────────────────────────────────────────────────────────
+     Geist Variable and Geist Mono Variable. Both are on Google Fonts as
+     "Geist" and "Geist Mono" — link them, or npm-install @fontsource-variable.
+     BASE FONT SIZE IS 14px, not 16px. This is a dense internal tool and the
+     whole scale is built on a 14px root. Do not raise it. */
+  --font-sans: "Geist Variable", "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", "Geist Mono", ui-monospace, monospace;
+
+  /* ── Radius ───────────────────────────────────────────────────────────── */
+  /* The two that carry the look are control (8px) and card (16px).
+     NOTE: --radius-sm is 10px, NOT Tailwind's built-in 2px — the source
+     deliberately overrides it. Nothing uses it today, so port it knowingly or
+     drop the name; reaching for it expecting 2px gives 10px.
+     Fully-round (9999px) is for pills, badges, status dots and avatars —
+     never for buttons. */
+  --radius-card:    16px;   /* panels, cards, drawers, sheets                */
+  --radius-sm:      10px;   /* small tiles, grouped surfaces (see note)      */
+  --radius-control:  8px;   /* buttons, inputs, selects, sub-tabs, chips     */
+  --radius-tight:    6px;   /* appears only inside the pricing screens       */
+
+  /* ── Elevation ────────────────────────────────────────────────────────────
+     There is no shadow token, deliberately. The whole app contains exactly ONE
+     shadow — a soft drop shadow on the pricing citation popover, which has to
+     read as detached from the panel beneath it. Everything else is the surface
+     ladder plus hairlines.
+     If you need something to feel raised, move it up the surface ladder or
+     give it a hairline border. */
+}
+
+/* ============================================================================
+   DARK MODE
+   Class-driven: a `dark` class on <html>. NOT prefers-color-scheme — the user
+   toggle is authoritative and the default is light. Persist the choice in
+   localStorage.
+
+   The ladder inverts but keeps its meaning: canvas is the darkest floor,
+   surface lifts, surface-strong lifts further. Hues stay the same as light;
+   lightness inverts and chroma stays restrained. The ink ramp goes near-white
+   and steps DOWN while clearing 4.5:1 on every dark surface.
+   ============================================================================ */
+
+.dark {
+  --canvas:           #14110d;   /* oklch(0.18 0.01 80)                       */
+  --surface:          #1d1a15;   /* oklch(0.22 0.01 80)                       */
+  --surface-strong:   #2a2620;   /* oklch(0.27 0.012 80)                      */
+  --hairline:         #302d29;   /* oklch(0.3 0.008 80)                       */
+  --hairline-strong:  #4b4742;   /* oklch(0.4 0.01 80)                        */
+
+  --ink:              #efeeeb;   /* oklch(0.95 0.004 90)                      */
+  --ink-muted:        #bab7b2;   /* oklch(0.78 0.008 85)                      */
+  --ink-subtle:       #a19e99;   /* oklch(0.7 0.008 85)                       */
+
+  --accent:           #51af6f;   /* oklch(0.68 0.13 152) — lifted to clear 3:1 */
+  --accent-tint:      #193521;   /* oklch(0.3 0.05 152)                       */
+  --mint:             #8ed09c;   /* oklch(0.8 0.1 150)                        */
+  --mint-tint:        #1f3423;   /* oklch(0.3 0.04 150)                       */
+
+  --danger:           #f66d67;   /* oklch(0.7 0.17 25)                        */
+  --destructive:      #f66d67;
+
+  --health-green:      #53be70;  /* oklch(0.72 0.15 150)                      */
+  --health-green-tint: #1a3520;  /* oklch(0.3 0.05 150)                       */
+  --health-green-ink:  #9ee1ab;  /* oklch(0.85 0.1 150)                       */
+  --health-amber:      #d9a440;  /* oklch(0.75 0.13 80)                       */
+  --health-amber-tint: #3b2b0d;  /* oklch(0.3 0.05 80)                        */
+  --health-amber-ink:  #edc889;  /* oklch(0.85 0.09 80)                       */
+  --health-red:        #f66d67;  /* oklch(0.7 0.17 25)                        */
+  --health-red-tint:   #47211e;  /* oklch(0.3 0.06 25)                        */
+  --health-red-ink:    #fcc0ba;  /* oklch(0.86 0.07 25)                       */
+
+  --info-tint:        #103243;   /* oklch(0.3 0.05 235)                       */
+  --info-ink:         #a8d5f0;   /* oklch(0.85 0.06 235)                      */
+}
+
+/* ============================================================================
+   BASE
+   ============================================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: var(--font-sans);
+  font-size: 14px;                    /* the whole scale rests on this */
+  color: var(--ink);
+  background-color: var(--canvas);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Opt native UI — scrollbars, form controls, autofill — into dark, so they do
+   not render as bright islands on a dark page. */
+html.dark { color-scheme: dark; }
+
+/* Respect the OS reduced-motion preference. Non-negotiable. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus is always visible, always the accent, always offset. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

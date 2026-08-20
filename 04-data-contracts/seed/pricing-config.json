@@ -1,0 +1,343 @@
+{
+  "config": {
+    "version": "2026-08-04·r1",
+    "assessmentsPct": 0.0014,
+    "buckets": {
+      "regulatedDebit": {
+        "pctOfVolume": 0.0005,
+        "perItem": 0.21
+      },
+      "unregulatedDebit": {
+        "pctOfVolume": 0.008,
+        "perItem": 0.15
+      },
+      "standardCredit": {
+        "pctOfVolume": 0.0151,
+        "perItem": 0.1
+      },
+      "premiumCredit": {
+        "pctOfVolume": 0.022,
+        "perItem": 0.1
+      },
+      "commercialCorporate": {
+        "pctOfVolume": 0.0275,
+        "perItem": 0.1
+      }
+    },
+    "downgrade": {
+      "share": 0.075,
+      "upliftPct": 0.006
+    },
+    "gtmAnchor": {
+      "pctOfVolume": 0.0274,
+      "perItem": 0.3
+    },
+    "industryBenchmark": {
+      "pctOfVolume": 0.0231,
+      "perItem": 0.25
+    },
+    "marginFloorBps": 40,
+    "marginFloorPerItem": 0.1,
+    "healthThresholds": {
+      "yellowBps": 0,
+      "greenBps": 10
+    },
+    "lineItems": {
+      "amortizeMonths": 24
+    },
+    "processors": {
+      "elavon": {
+        "settlementPct": 0.00015,
+        "settlementPerItem": 0.02,
+        "authPerItem": 0.015,
+        "buy": {
+          "pctOfVolume": 0.00015,
+          "perItem": 0.03546391752577319
+        },
+        "revShare": 1,
+        "perMerchantMonthly": 4,
+        "scheduleB": {
+          "enabled": false,
+          "revShareTier1": 0.6
+        }
+      },
+      "qorpay": {
+        "avsPerAuth": 0.01,
+        "lowRisk": {
+          "buy": {
+            "pctOfVolume": 0.000275,
+            "perItem": 0.040927835051546395
+          },
+          "revShare": 1,
+          "perMerchantMonthly": 13.9
+        },
+        "highRisk": {
+          "buy": {
+            "pctOfVolume": 0.0035,
+            "perItem": 0.11309278350515463
+          },
+          "revShare": 1,
+          "perMerchantMonthly": 13.9
+        },
+        "gateway": {
+          "enabled": false,
+          "monthlyPerMid": 2,
+          "perTxn": 0.02
+        },
+        "losses": {
+          "flatMonthly": 15,
+          "chargebackRateBps": 0,
+          "partnerLiabilityShare": 0.5,
+          "feePerOccurrence": 12,
+          "occurrenceRatePerTxn": 0
+        },
+        "portfolioAnnual": {
+          "year1Minimum": 10000,
+          "year2PlusMinimum": 20000,
+          "allocation": "none"
+        }
+      }
+    },
+    "verticalPresets": {
+      "insurance": {
+        "label": "Insurance",
+        "mix": {
+          "regulatedDebit": 0.1,
+          "unregulatedDebit": 0.05,
+          "standardCredit": 0.13,
+          "premiumCredit": 0.52,
+          "commercialCorporate": 0.2
+        },
+        "typicalTicket": 2000
+      },
+      "government": {
+        "label": "Government & utilities",
+        "mix": {
+          "regulatedDebit": 0.35,
+          "unregulatedDebit": 0.2,
+          "standardCredit": 0.15,
+          "premiumCredit": 0.25,
+          "commercialCorporate": 0.05
+        },
+        "typicalTicket": 150
+      },
+      "healthcare": {
+        "label": "Healthcare",
+        "mix": {
+          "regulatedDebit": 0.3,
+          "unregulatedDebit": 0.2,
+          "standardCredit": 0.15,
+          "premiumCredit": 0.3,
+          "commercialCorporate": 0.05
+        },
+        "typicalTicket": 120
+      },
+      "ecommerce": {
+        "label": "Consumer ecommerce / NIL",
+        "mix": {
+          "regulatedDebit": 0.21,
+          "unregulatedDebit": 0.12,
+          "standardCredit": 0.17,
+          "premiumCredit": 0.45,
+          "commercialCorporate": 0.05
+        },
+        "typicalTicket": 35
+      }
+    },
+    "fbo": {
+      "perEndCustomerMonthly": 10,
+      "perTxnTiers": [
+        {
+          "upTo": 500000,
+          "rate": 0.1
+        },
+        {
+          "upTo": null,
+          "rate": 0.05
+        }
+      ],
+      "achOrigPerItem": 0.2,
+      "batchLegsPerMonth": 44,
+      "sell": {
+        "perTxnOut": 0.25,
+        "fundsFlowBps": 0,
+        "monthlyPlatformFee": 25,
+        "floatSharePct": 0
+      },
+      "portfolioFixed": {
+        "monthly": 5250,
+        "implOneTime": 10000
+      },
+      "fixedAllocation": "none"
+    },
+    "massPay": {
+      "achNextDayTiers": [
+        {
+          "upTo": 5000,
+          "rate": 0.9
+        },
+        {
+          "upTo": 7500,
+          "rate": 0.85
+        },
+        {
+          "upTo": 10000,
+          "rate": 0.75
+        },
+        {
+          "upTo": 50000,
+          "rate": 0.65
+        },
+        {
+          "upTo": null,
+          "rate": 0.25
+        }
+      ],
+      "costPerPayoutCrossBorder": 3,
+      "fxCostPct": 0.01,
+      "quoteValidUntil": "2026-07-07",
+      "sell": {
+        "perPayoutFee": 2,
+        "fxSpreadPct": 0.015
+      }
+    }
+  },
+  "overrides": {
+    "marginFloorBps": 40,
+    "lineItems.amortizeMonths": 24
+  },
+  "revision": 1,
+  "updatedAt": "2026-08-14T16:22:10.418Z",
+  "updatedBy": "priya.raman@chainit.com",
+  "editableFields": [
+    {
+      "path": "marginFloorBps",
+      "label": "Margin floor",
+      "group": "policy",
+      "groupLabel": "Approval floor",
+      "kind": "bps",
+      "min": 0,
+      "max": 1000,
+      "help": "The lowest margin a rep can quote without your sign-off. Drives the minimum-rate line — the heart of the tool."
+    },
+    {
+      "path": "marginFloorPerItem",
+      "label": "Added per-item floor",
+      "group": "policy",
+      "groupLabel": "Approval floor",
+      "kind": "usd",
+      "min": 0,
+      "max": 5,
+      "help": "Flat dollars per transaction added on top of the bps floor."
+    },
+    {
+      "path": "downgrade.share",
+      "label": "Downgrade share of volume",
+      "group": "downgrade",
+      "groupLabel": "Downgrade assumption",
+      "kind": "pct",
+      "min": 0,
+      "max": 0.5,
+      "help": "Share of volume that fails qualification and lands in a pricier category."
+    },
+    {
+      "path": "downgrade.upliftPct",
+      "label": "Downgrade cost uplift",
+      "group": "downgrade",
+      "groupLabel": "Downgrade assumption",
+      "kind": "pct",
+      "min": 0,
+      "max": 0.05,
+      "help": "How much more expensive a downgraded transaction is."
+    },
+    {
+      "path": "processors.qorpay.losses.flatMonthly",
+      "label": "Flat loss allowance",
+      "group": "losses",
+      "groupLabel": "QorPay loss allowance",
+      "kind": "usd",
+      "min": 0,
+      "max": 1000,
+      "help": "Flat monthly allowance for chargeback losses on QorPay deals (rate model retired 2026-07-15)."
+    },
+    {
+      "path": "fbo.sell.perTxnOut",
+      "label": "Per money-out transaction",
+      "group": "fboSell",
+      "groupLabel": "FBO — what we charge",
+      "kind": "usd",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "path": "fbo.sell.fundsFlowBps",
+      "label": "Funds-flow basis points",
+      "group": "fboSell",
+      "groupLabel": "FBO — what we charge",
+      "kind": "bps",
+      "min": 0,
+      "max": 500,
+      "help": "Basis points earned on settlement volume flowing through the FBO."
+    },
+    {
+      "path": "fbo.sell.monthlyPlatformFee",
+      "label": "Monthly platform fee",
+      "group": "fboSell",
+      "groupLabel": "FBO — what we charge",
+      "kind": "usd",
+      "min": 0,
+      "max": 100000
+    },
+    {
+      "path": "fbo.sell.floatSharePct",
+      "label": "Float / yield share",
+      "group": "fboSell",
+      "groupLabel": "FBO — what we charge",
+      "kind": "pct",
+      "min": 0,
+      "max": 1
+    },
+    {
+      "path": "massPay.sell.perPayoutFee",
+      "label": "Per-payout fee",
+      "group": "masspaySell",
+      "groupLabel": "MassPay — what we charge",
+      "kind": "usd",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "path": "massPay.sell.fxSpreadPct",
+      "label": "FX spread",
+      "group": "masspaySell",
+      "groupLabel": "MassPay — what we charge",
+      "kind": "pct",
+      "min": 0,
+      "max": 0.2,
+      "help": "Our margin on the currency conversion for cross-border payouts."
+    },
+    {
+      "path": "massPay.quoteValidUntil",
+      "label": "MassPay cost quote valid until",
+      "group": "masspayQuote",
+      "groupLabel": "MassPay quote",
+      "kind": "date",
+      "help": "Reconfirm the MassPay cost schedule, then update this date to clear the 'quote expired' badge."
+    },
+    {
+      "path": "lineItems.amortizeMonths",
+      "label": "Equipment amortization window",
+      "group": "lineItems",
+      "groupLabel": "Products & equipment",
+      "kind": "count",
+      "min": 1,
+      "max": 60,
+      "help": "One-time equipment purchases are spread over this many months so they can be compared with monthly revenue. A $1,098 terminal reads very differently at 12 months than at 36."
+    }
+  ],
+  "me": {
+    "email": "priya.raman@chainit.com",
+    "isAdmin": true,
+    "canEditConfig": true
+  }
+}

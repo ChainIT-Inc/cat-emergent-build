@@ -1,0 +1,116 @@
+{
+  "role": "rep",
+  "ownerResolved": true,
+  "fallback": null,
+  "myOpenDeals": {
+    "count": 6,
+    "amount": 334400,
+    "deals": [
+      {
+        "id": "d-1022",
+        "pipeline": "default",
+        "dealstage": "contractsent",
+        "amount": 99000,
+        "ownerId": "102",
+        "daysInStage": 23,
+        "lastModifiedMs": 1785247200000
+      },
+      {
+        "id": "d-1009",
+        "pipeline": "default",
+        "dealstage": "qualifiedtobuy",
+        "amount": 88500,
+        "ownerId": "102",
+        "daysInStage": 17,
+        "lastModifiedMs": 1785765600000
+      },
+      {
+        "id": "d-1013",
+        "pipeline": "default",
+        "dealstage": "presentationscheduled",
+        "amount": 52300,
+        "ownerId": "102",
+        "daysInStage": 15,
+        "lastModifiedMs": 1785938400000
+      },
+      {
+        "id": "d-1017",
+        "pipeline": "default",
+        "dealstage": "decisionmakerboughtin",
+        "amount": 73400,
+        "ownerId": "102",
+        "daysInStage": 7,
+        "lastModifiedMs": 1786629600000
+      },
+      {
+        "id": "d-1001",
+        "pipeline": "default",
+        "dealstage": "appointmentscheduled",
+        "amount": 12000,
+        "ownerId": "102",
+        "daysInStage": 3,
+        "lastModifiedMs": 1786975200000
+      },
+      {
+        "id": "d-1004",
+        "pipeline": "default",
+        "dealstage": "appointmentscheduled",
+        "amount": 9200,
+        "ownerId": "102",
+        "daysInStage": 2,
+        "lastModifiedMs": 1787061600000
+      }
+    ]
+  },
+  "agingDeals": {
+    "count": 3,
+    "amount": 239800
+  },
+  "tasksDueToday": {
+    "count": 0,
+    "available": false
+  },
+  "newMqlSqlSince": {
+    "count": 1
+  },
+  "weekWins": {
+    "count": 1,
+    "amount": 54000
+  },
+  "hotLeads": {
+    "count": 5,
+    "leads": [
+      {
+        "id": "l-3001",
+        "name": "Odile Marchetti",
+        "email": "odile.marchetti@brightfold-dental.example",
+        "createdMs": 1787148000000
+      },
+      {
+        "id": "l-3002",
+        "name": "Ivo Karlsen",
+        "email": "ivo.karlsen@tessellate-labs.example",
+        "createdMs": 1787104800000
+      },
+      {
+        "id": "l-3003",
+        "name": "Nadia Prentiss",
+        "email": "nadia.prentiss@vireohealth.example",
+        "createdMs": 1787061600000
+      },
+      {
+        "id": "l-3004",
+        "name": null,
+        "email": "hello@quill-anchor.example",
+        "createdMs": 1787018400000
+      },
+      {
+        "id": "l-3005",
+        "name": "Greta Sollis",
+        "email": "greta.sollis@halyardmarine.example",
+        "createdMs": 1786975200000
+      }
+    ],
+    "degraded": false
+  }
+}

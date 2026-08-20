@@ -1,0 +1,181 @@
+{
+  "object": "companies",
+  "scope": "all",
+  "rows": [
+    {
+      "id": "c-9014",
+      "name": "Kestrel County Water",
+      "owner": "Unassigned",
+      "missing": [
+        {
+          "key": "owner_id",
+          "label": "Owner"
+        },
+        {
+          "key": "domain",
+          "label": "Domain"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9014"
+    },
+    {
+      "id": "c-9010",
+      "name": "Peartree Pet Supply",
+      "owner": "Unassigned",
+      "missing": [
+        {
+          "key": "owner_id",
+          "label": "Owner"
+        },
+        {
+          "key": "domain",
+          "label": "Domain"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9010"
+    },
+    {
+      "id": "c-9005",
+      "name": "Marrow Bay Cannabis",
+      "owner": "Unassigned",
+      "missing": [
+        {
+          "key": "owner_id",
+          "label": "Owner"
+        },
+        {
+          "key": "domain",
+          "label": "Domain"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9005"
+    },
+    {
+      "id": "c-9012",
+      "name": "Ostrich Creek Winery",
+      "owner": "Tomás Vega",
+      "missing": [
+        {
+          "key": "domain",
+          "label": "Domain"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9012"
+    },
+    {
+      "id": "c-9009",
+      "name": "Suncrest Insurance Group",
+      "owner": "Unassigned",
+      "missing": [
+        {
+          "key": "owner_id",
+          "label": "Owner"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9009"
+    },
+    {
+      "id": "c-9008",
+      "name": "Copperline Utilities",
+      "owner": "Tomás Vega",
+      "missing": [
+        {
+          "key": "domain",
+          "label": "Domain"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9008"
+    },
+    {
+      "id": "c-9004",
+      "name": "Quill & Anchor Books",
+      "owner": "Unassigned",
+      "missing": [
+        {
+          "key": "owner_id",
+          "label": "Owner"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9004"
+    },
+    {
+      "id": "c-9003",
+      "name": "Larkspur Outdoors",
+      "owner": "Tomás Vega",
+      "missing": [
+        {
+          "key": "domain",
+          "label": "Domain"
+        }
+      ],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9003"
+    },
+    {
+      "id": "c-9015",
+      "name": "Vanta Rose Cosmetics",
+      "owner": "Sam Oduya",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9015"
+    },
+    {
+      "id": "c-9013",
+      "name": "Brightfold Dental",
+      "owner": "Marcus Ilo",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9013"
+    },
+    {
+      "id": "c-9011",
+      "name": "Halyard Marine Rentals",
+      "owner": "Priya Raman",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9011"
+    },
+    {
+      "id": "c-9007",
+      "name": "Vireo Health Partners",
+      "owner": "Dana Whitlock",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9007"
+    },
+    {
+      "id": "c-9006",
+      "name": "Tessellate Labs",
+      "owner": "Priya Raman",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9006"
+    },
+    {
+      "id": "c-9002",
+      "name": "Bellhaven Clinics",
+      "owner": "Priya Raman",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9002"
+    },
+    {
+      "id": "c-9001",
+      "name": "Northwind Provisions",
+      "owner": "Marcus Ilo",
+      "missing": [],
+      "hubspotUrl": "https://app.hubspot.com/contacts/46378407/record/0-2/c-9001"
+    }
+  ],
+  "shown": 15,
+  "scoped": 15,
+  "synced": 8320,
+  "reportedTotal": 43640,
+  "missingByLabel": [
+    {
+      "key": "owner_id",
+      "label": "Owner",
+      "count": 5
+    },
+    {
+      "key": "domain",
+      "label": "Domain",
+      "count": 6
+    }
+  ],
+  "matching": null,
+  "syncPending": false
+}
